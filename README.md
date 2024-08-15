@@ -8,4 +8,4 @@ Alumnos de la tecnicatura universitaria en programacion cohorte 2024
 2. Lilieth Chacon
 3. Matias Fuentes
 4. Guillermo
-5. Franciscp
+5. Francisco
