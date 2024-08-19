@@ -4,10 +4,10 @@ Alumnos de la tecnicatura universitaria en programacion cohorte 2024
 
 #Integrantes:
 
-1. Luca Perez Legajo: 11.193 :nerd: 
+1. Luca Perez Legajo: 11.193 :eyeglasses: 
 2. Lilieth Chacon 11029 :flatbread: 
 3. Matias Fuentes :rose: 
-4. Guillermo :man_mage: 
+4. Guillermo :ninja:  
 5. Francisco :nail_care: 
 6. Jorge Mathez 11148 :poultry_leg: 
 7. Camila Alvarez :smoking:  
