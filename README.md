@@ -1,17 +1,17 @@
-:mate: :video_game: :two_hearts:  FatalError
+:mate: :video_game: :two_hearts:  FatalError  :mate: :video_game: :two_hearts:
 
 Alumnos de la tecnicatura universitaria en programacion cohorte 2024
 
 #Integrantes:
 
-1. Luca Perez Legajo: 11.193
-2. Lilieth Chacon 11029
-3. Matias Fuentes
-4. Guillermo :dragon_face: 
-5. Francisco
-6. Jorge Mathez 11148
-7. Camila Alvarez
-8. Zoe Morena Ruiz 11230
-9. Andres Dominguez 11062
-10. Nicolas Cruzate
-11. Juan Martin Fernandez 
+1. Luca Perez Legajo: 11.193 :nerd: 
+2. Lilieth Chacon 11029 :flatbread: 
+3. Matias Fuentes :rose: 
+4. Guillermo :man_mage: 
+5. Francisco :nail_care: 
+6. Jorge Mathez 11148 :poultry_leg: 
+7. Camila Alvarez :smoking:  
+8. Zoe Morena Ruiz 11230 :teddy_bear: 
+9. Andres Dominguez 11062 :musical_keyboard: 
+10. Nicolas Cruzate :new_moon_with_face: 
+11. Juan Martin Fernandez :volleyball: 
