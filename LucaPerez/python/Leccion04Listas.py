@@ -1,5 +1,8 @@
 #Lista = Ariel , Liliana, Luca,Osvaldo
+#Colecciones en python
 
+#Las istas son colecciones de elementos que pueden ser de diferentes tipos
+#
 nombres = ['Luca' , 'Fiorella','Mariano', 'Bianca']
 print(nombres)
 #print(nombres[0]) #Mostrando Elemento que queramos
@@ -35,6 +38,9 @@ print(len(nombres)) # le pasamos como parametro la lista
 
 #Agregamos un elemento
 nombres.append('Marcelo') # funcion append que agrega un elemento a la lista
+nombres.append('Mariano')
+nombres.append(True)
+nombres.append(10)
 print(nombres)
 
 # insetar un elemento en un indice especifico
@@ -174,3 +180,32 @@ print(diccionario)
 
 #Eliminar el diccionario
 #del diccionario
+
+#concatenar Listas
+lista1 = [1,2,3,1]
+lista2 = [4,5,6,1]
+lista3 = lista1 + lista2 #concatenacion de listas
+print(lista3)
+
+lista1.extend([7,8,9,1]) #funcion extend para agregar elementos a una lista
+print(lista3)
+
+print(lista3.index(5))#Saber que numero hay en cierta posicion
+#print(lista3.index(5,1,7)) #buscar un elemento en un rango
+
+#como saber cuantas veces se repite un elemento
+print(lista3.count(1)) #cuenta cuantos valores iguales hay de la lista
+
+#para poner al reves una lista
+lista3.reverse()
+print(lista3)
+
+# para que una lista se multiplique repitiendo sus elementos
+lista = lista3* 2
+print(lista)
+
+# metodo de ordenamiento
+lista3.sort() # ordena la lista
+print(lista3)
+lista3.sort(reverse=True) # ordena la lista de manera inversa
+print(lista3)
