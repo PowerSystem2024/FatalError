@@ -204,8 +204,15 @@ print(lista3)
 lista = lista3* 2
 print(lista)
 
-# metodo de ordenamiento
+# metodo de ordenamiento en python en una funcion
 lista3.sort() # ordena la lista
 print(lista3)
 lista3.sort(reverse=True) # ordena la lista de manera inversa
 print(lista3)
+
+tupla = (1,"Hola", 6.78,[1,2,78, "Hola"]) #Puede tener diferentes tipos de datos
+print(tupla)
+
+print(4 in tupla) # False
+#Lo que podemos usar dentro de tuplas son : index , count ,len
+#en  tuplas se puede convertir de tupla a lista y viceversa
