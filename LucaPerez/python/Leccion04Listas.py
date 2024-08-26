@@ -90,3 +90,28 @@ cocina = tuple(cocinaLista) # conversion de lista a tupla
 print('\n',cocina) 
 
 # del cocina esto elimina la tupla
+
+# tipo set // cambia el orden de impresion
+planetas = {"Marte", "Jupiter", "Venus"}
+print(len(planetas)) # cantidad de elementos
+
+#Revisar si un elemento existe dentro del set
+print('Marte' in planetas)
+
+#Agregar un elemento
+planetas.add('Tierra') # solo agrega un elemento
+print(planetas)
+
+#Eliminar un elemento, puede generar un error si no existe
+planetas.remove('Venus')
+print(planetas)
+planetas.discard('Tierra') # no genera error si no existe
+
+#limpiar el set
+planetas.clear()
+print(planetas)
+
+#Eliminar el set
+#del planetas
+
+
