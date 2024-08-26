@@ -114,4 +114,63 @@ print(planetas)
 #Eliminar el set
 #del planetas
 
+#Diccionarios
+#maradona : 10 un dicionario esta compuesto por dos elementos
+#una llave y un valor
+#dict = {'llave':'valor'}(key:value)
+diccionario = {
+    'IDE':'Integrated Development Environment',
+    'POO':'Programacion Orientada a Objetos',
+    'SABD':'Sistemas de Base de Datos'
+}
 
+print(diccionario)
+
+#Verificar la cantidad de elementos del diccionario
+print(len(diccionario))
+print (diccionario)
+
+#Acceder a un elemento con la llave 
+print(diccionario['IDE'])   #IDE es la llave
+
+#Otra forma de recuperar un elemento
+print(diccionario.get('POO'))
+print(diccionario.get('SABD')) 
+
+
+#Modificar elementos
+diccionario['IDE'] = 'Entorno de Desarrollo Integrado'
+print(diccionario)
+
+#Recorrer los elementos del diccionario
+for termino in diccionario:
+    print(termino) # solo imprime las llaves
+
+#nesecitamos una funcion para mostrar los valores
+for termino , valor in diccionario.items():
+    print(termino,valor) 
+
+#otras maneras de recorrer un diccionario
+for termino in diccionario.keys(): # keys() solo imprime las llaves
+    print(termino) # solo imprime las llaves
+
+for valor in diccionario.values():
+    print(valor) # solo imprime los valores
+
+#Comprobar si existe un elemento
+print('IDE' in diccionario) # True
+
+#Agregar un elemento
+diccionario['PK'] = 'Primary Key'
+print(diccionario)
+
+#Remover un elemento
+diccionario.pop('PK')
+print(diccionario)
+
+#Limpiar el diccionario
+#diccionario.clear()
+#print(diccionario)
+
+#Eliminar el diccionario
+#del diccionario
