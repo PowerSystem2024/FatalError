@@ -1,4 +1,3 @@
-package leccion02;
 
 import java.util.Scanner;
 
