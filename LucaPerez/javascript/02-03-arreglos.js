@@ -24,3 +24,8 @@ console.log(autos);
 // tercera forma de agregar elementos teniendo cuidado
 autos[6] = 'Nissan';
 console.log(autos); // se crea un espacio vacio en la posicion 5
+
+// como presuntar si es una array o arreglo
+console.log(Array.isArray(autos)); // true
+
+console.log(autos instanceof Array); // true preguntamos si la variable es una instancia de la clase array
