@@ -8,7 +8,7 @@ Alumnos de la tecnicatura universitaria en programacion cohorte 2024
 2. Lilieth Chacon 11029 :flatbread: 
 3. Matias Fuentes :rose: 
 4. Guillermo :ninja:  
-5. Francisco :nail_care: 
+5. Francisco Valdez :nail_care: 
 6. Jorge Mathez 11148 :poultry_leg: 
 7. Camila Alvarez :smoking:  
 8. Zoe Morena Ruiz 11230 :teddy_bear: 
