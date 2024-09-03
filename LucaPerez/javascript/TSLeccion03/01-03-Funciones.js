@@ -46,5 +46,32 @@ let sumar = function(a =4,b =8){ // se le asigna un valor por defecto
     return a+b + arguments[2]; // se le asigna un valor por defecto{3}
 }
 
-resultado = sumar(3,6);
+resultado = sumar(3,2,9);
 console.log(resultado);
+
+
+let respuesta = sumarTodo(5,4,13,10,9);
+console.log(respuesta);
+
+// a esto se le llama hosting
+//sumar todos los argumentos
+function sumarTodo(){
+    let suma = 0;
+    for(let i = 0; i < arguments.length; i++){
+        suma += arguments[i]; // arguments es para arreglos
+    }
+    return suma;
+}
+
+
+// tipos primitivos
+let k = 10;
+function cambiarValor(a){ // paso por valor (la variable no sufre ningun cambio)
+    a = 20;
+}
+
+cambiarValor(k);
+console.log(k);
+
+
+
