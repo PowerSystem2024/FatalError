@@ -279,6 +279,46 @@ print(diccionarioNuevo)
 diccionario2 = {"Luca":{"Edad": 20, "Estatura": 1.75}, "Fiorella": [22,1.65]}
 print(diccionario2)
 
+seleccionArgentina = {
+    10: {"Nombre":"Lionel Messi", "Edad": 35, "Posicion":"Delantero","Precio" : "100 Millones"},
+    11: {"Nombre":"Angel Di Maria", "Edad": 33, "Posicion":"Delantero","Precio" : "50 Millones"},
+    12: {"Nombre":"Nicolas Otamendi", "Edad": 33, "Posicion":"Defensa","Precio" : "30 Millones"},
+    13: {"Nombre":"Gonzalo Montiel", "Edad": 25, "Posicion":"Defensa","Precio" : "20 Millones"},
+    14: {"Nombre":"Emiliano Martinez", "Edad": 29, "Posicion":"Arquero","Precio" : "40 Millones"},
+    15: {"Nombre":"Leandro Paredes", "Edad": 27, "Posicion":"Mediocampista","Precio" : "60 Millones"},
+    16: {"Nombre":"Rodrigo De Paul", "Edad": 27, "Posicion":"Mediocampista","Precio" : "70 Millones"},
+    17: {"Nombre":"Lautaro Martinez", "Edad": 24, "Posicion":"Delantero","Precio" : "80 Millones"},
+    18: {"Nombre":"Guido Rodriguez", "Edad": 27, "Posicion":"Mediocampista","Precio" : "50 Millones"},
+    19: {"Nombre":"Julian Alvarez", "Edad": 21, "Posicion":"Delantero","Precio" : "30 Millones"},
+    20: {"Nombre":"Nahuel Molina", "Edad": 23, "Posicion":"Defensa","Precio" : "20 Millones"},
+    21: {"Nombre":"Lucas Alario", "Edad": 28, "Posicion":"Delantero","Precio" : "40 Millones"},
+    22: {"Nombre":"German Pezzella", "Edad": 30, "Posicion":"Defensa","Precio" : "30 Millones"},
+    23: {"Nombre":"Juan Musso", "Edad": 27, "Posicion":"Arquero","Precio" : "40 Millones"},
+    24: {"Nombre":"Alejandro Gomez", "Edad": 33, "Posicion":"Mediocampista","Precio" : "60 Millones"},
+    25: {"Nombre":"Nicolas Tagliafico", "Edad": 28, "Posicion":"Defensa","Precio" : "40 Millones"},
+    26: {"Nombre":"Agustin Marchesin", "Edad": 33, "Posicion":"Arquero","Precio" : "50 Millones"},
+    27: {"Nombre":"Alexis Mac Allister", "Edad": 23, "Posicion":"Mediocampista","Precio" : "30 Millones"}
+}
+
+for llave in seleccionArgentina.items():
+    print(llave)
+
+print("Tenemos cargados en la seleccion Argentina a la cantidad de jugadores", end=' ')
+print(len(seleccionArgentina))
+
+#Pilas usando listas
+pila = [1,2,3]
+
+#Agregar elementos a la pila
+pila.append(4)
+pila.append(5)
+print(pila)
+
+#Sacar elementos de la pila desde el final
+elementoBorrado = pila.pop() #sacamos el ultimo elemento
+print(f"salio el elemento {elementoBorrado}")
+print(f"la pila ahora quedo asi:{pila}")
+
 
 
 
