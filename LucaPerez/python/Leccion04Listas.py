@@ -249,3 +249,37 @@ conjunto3 = conjunto1 ^ conjunto2 #elementos que estan en conjunto1 o conjunto2 
 print(conjunto3)
 
 
+conjunto3 = conjunto1 | conjunto2 #union de conjuntos
+print(conjunto1.issubset(conjunto3)) #True si conjunto1 es subconjunto de conjunto3
+print(conjunto2.issubset(conjunto3)) #True si conjunto2 es subconjunto de conjunto3
+print(conjunto3.issubset(conjunto1)) #False si conjunto3 es subconjunto de conjunto1
+print(conjunto3.issubset(conjunto2)) #False si conjunto3 es subconjunto de conjunto2
+
+
+print(conjunto3.issuperset(conjunto1)) #True si conjunto3 es superconjunto de conjunto1
+print(conjunto3.issuperset(conjunto2)) #True si conjunto3 es superconjunto de conjunto
+print(conjunto2.issuperset(conjunto3)) #True si conjunto2 es superconjunto de conjunto3
+
+#COmo saber si ambos conjuntos son disconexos , esto es si no comparten elementos en comun
+print(conjunto1.isdisjoint(conjunto2)) #No hay cosas en comun
+
+#convertir un conjunto totalmente inmutable
+conjunto1 = frozenset # no se puede modificar
+# no se puede agregar elementos
+
+#repaso diccionarios
+diccionarioNuevo = {'azul':'blue','rojo':'red','verde':'green'}
+print(diccionarioNuevo)
+
+#Como eliminar
+del diccionarioNuevo['azul']
+print(diccionarioNuevo)
+
+#los diccionarios pueden almacenar diferentes tipos de datos
+diccionario2 = {"Luca":{"Edad": 20, "Estatura": 1.75}, "Fiorella": [22,1.65]}
+print(diccionario2)
+
+
+
+
+
