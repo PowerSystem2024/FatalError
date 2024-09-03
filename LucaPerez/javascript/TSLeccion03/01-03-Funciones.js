@@ -33,3 +33,45 @@ miFuncionDos(10,2,3,4,5,6);
 var miFuncionTexto = miFuncion.toString(); //  metodo toString: convierte a texto asignamos nuestra funcion pero en forma de texto
 console.log(miFuncionTexto);
 
+//funciones flecha
+const sumarFuncionTipoFlecha = (a,b) => a+b; // se quita la palabra function y se ponen flechas
+resultado = sumarFuncionTipoFlecha(3,7);
+console.log(resultado);
+
+
+//funcion de tipo expresion
+let sumar = function(a =4,b =8){ // se le asigna un valor por defecto
+    console.log(arguments[0]) ; // muestra el parametro de : a
+    console.log(arguments[1]) ; // muestra el parametro de : b
+    return a+b + arguments[2]; // se le asigna un valor por defecto{3}
+}
+
+resultado = sumar(3,2,9);
+console.log(resultado);
+
+
+let respuesta = sumarTodo(5,4,13,10,9);
+console.log(respuesta);
+
+// a esto se le llama hosting
+//sumar todos los argumentos
+function sumarTodo(){
+    let suma = 0;
+    for(let i = 0; i < arguments.length; i++){
+        suma += arguments[i]; // arguments es para arreglos
+    }
+    return suma;
+}
+
+
+// tipos primitivos
+let k = 10;
+function cambiarValor(a){ // paso por valor (la variable no sufre ningun cambio)
+    a = 20;
+}
+
+cambiarValor(k);
+console.log(k);
+
+
+
