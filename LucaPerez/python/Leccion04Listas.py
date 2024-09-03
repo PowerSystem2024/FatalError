@@ -319,6 +319,24 @@ elementoBorrado = pila.pop() #sacamos el ultimo elemento
 print(f"salio el elemento {elementoBorrado}")
 print(f"la pila ahora quedo asi:{pila}")
 
+#Colas con listas
+#Estructuras de datos tipo fifo(First input / First Output)
+cola = ["Luca","Fiorella","Mariano","Bianca"]
+
+#Agregar elementos a la cola
+cola.append("Alberto")
+cola.append("Debora")
+print(cola)
+
+#Sacar elementos de la cola desde el inicio
+seRetira = cola.pop(0) #sacamos el primer elemento
+print(f"salio el elemento {seRetira}")
+print(f"la cola ahora quedo asi:{cola}")
+
+seRetira = cola.pop(1)
+print(f"salio el elemento {seRetira}")
+print(f"la cola ahora quedo asi:{cola}") 
+
 
 
 
