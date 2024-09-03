@@ -33,3 +33,18 @@ miFuncionDos(10,2,3,4,5,6);
 var miFuncionTexto = miFuncion.toString(); //  metodo toString: convierte a texto asignamos nuestra funcion pero en forma de texto
 console.log(miFuncionTexto);
 
+//funciones flecha
+const sumarFuncionTipoFlecha = (a,b) => a+b; // se quita la palabra function y se ponen flechas
+resultado = sumarFuncionTipoFlecha(3,7);
+console.log(resultado);
+
+
+//funcion de tipo expresion
+let sumar = function(a =4,b =8){ // se le asigna un valor por defecto
+    console.log(arguments[0]) ; // muestra el parametro de : a
+    console.log(arguments[1]) ; // muestra el parametro de : b
+    return a+b + arguments[2]; // se le asigna un valor por defecto{3}
+}
+
+resultado = sumar(3,6);
+console.log(resultado);
