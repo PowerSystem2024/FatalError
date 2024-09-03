@@ -216,3 +216,36 @@ print(tupla)
 print(4 in tupla) # False
 #Lo que podemos usar dentro de tuplas son : index , count ,len
 #en  tuplas se puede convertir de tupla a lista y viceversa
+
+#Repaso de set o conjunto
+#para definir un conjunto
+conjunto2 = set()
+conjunto1 = {'Bye',}
+conjunto2.add(7)
+conjunto2.add('Hola')
+print(conjunto2)
+conjunto1.add('HOLA')
+print(conjunto1)
+print(3 not in conjunto1) #Preguntamos si el numero 3 no esta en el conjunto1 True
+
+
+#Como hacer la igualda de dos conjuntos
+print(conjunto2 == conjunto1) #False
+
+#Operaciones en conjuntos
+#Union
+conjunto3 = conjunto1 | conjunto2 #union de conjuntos
+print(conjunto3)
+
+conjunto3 = conjunto1 & conjunto2 #que elemento tienen en comun
+print(conjunto3)
+
+conjunto3 = conjunto1 - conjunto2 #elementos que estan en conjunto1 pero no en conjunto2
+print(conjunto3)
+conjunto3 = conjunto2 - conjunto1 #elementos que estan en conjunto2 pero no en conjunto1
+print(conjunto3)
+
+conjunto3 = conjunto1 ^ conjunto2 #elementos que estan en conjunto1 o conjunto2 pero no en ambos
+print(conjunto3)
+
+
