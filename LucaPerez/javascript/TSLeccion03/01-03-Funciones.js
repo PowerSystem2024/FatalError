@@ -22,3 +22,14 @@ console.log(resultado);
     console.log("Ejecutando la funcion: " + (a+b));
 })(9,6);
 
+console.log(typeof miFuncion);
+function    miFuncionDos(a,b){
+    console.log(arguments.length);
+}
+
+miFuncionDos(10,2,3,4,5,6);
+
+//toString
+var miFuncionTexto = miFuncion.toString(); //  metodo toString: convierte a texto asignamos nuestra funcion pero en forma de texto
+console.log(miFuncionTexto);
+
