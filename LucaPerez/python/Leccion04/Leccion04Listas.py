@@ -337,7 +337,9 @@ seRetira = cola.pop(1)
 print(f"salio el elemento {seRetira}")
 print(f"la cola ahora quedo asi:{cola}") 
 
-
+#Recorremos el diccionario seleccion argentina
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
 
 
 
