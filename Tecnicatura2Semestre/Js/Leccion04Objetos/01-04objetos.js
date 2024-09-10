@@ -27,3 +27,35 @@ console.log(persona2.telefono);
 console.log("Creamos un nuevo objeto");
 console.log(persona["apellido"]); //como si fuera un arreglo
 console.log("Usamos el ciclo for in");
+
+//for in
+for(propiedad in persona){
+    console.log(propiedad); 
+    console.log(persona[propiedad]);
+}
+console.log("Cambiamos y eliminamos un error");
+persona.apellida = "Carrizo"; //cambiamos dinamicamente
+delete persona.apellida; //eliminamos error
+console.log(persona);
+
+//Diferentes formas de imprimir un objeto
+console.log("Diferentes formas de imprimir un objeto");
+//Forma 1: concatenando 
+console.log("Forma una: concatenando");
+console.log(persona.nombre+", "+persona.apellido);
+
+//Forma 2: ciclo for in
+console.log("Forma dos: ciclo for in");
+for(nombrePropiedad in persona){
+   console.log(persona[nombrePropiedad]);
+}
+
+//Forma 3: funcion Object.values()
+console.log("Forma tres: funcion Object.values()")
+let personaArray = Object.values(persona);
+console.log(personaArray);
+
+//Forma 4: metodo JSON.stringify
+console.log("Forma cuatro: metodo JSON.stringify");
+let personaString = JSON.stringify(persona);
+console.log(personaString);
