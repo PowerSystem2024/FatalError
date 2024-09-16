@@ -14,4 +14,4 @@ Alumnos de la tecnicatura universitaria en programacion cohorte 2024
 8. Zoe Morena Ruiz 11230 :teddy_bear: 
 9. Andres Dominguez 11062 :musical_keyboard: 
 10. Nicolas Cruzate :new_moon_with_face: 
-11. Juan Martin Fernandez 11.077:volleyball: 
+11. Juan Martin Fernandez 11.077 :volleyball: 
