@@ -6,9 +6,19 @@ let persona = {
     nombre: "Morena",
     apellido: "Ruiz",
     email: "morenaruiz@gmail.com",
-    edad: 22,
+    edad: 222,
+    idioma: "ES",
+    get lang(){
+        console.log (this.idioma.toUpperCase());
+    },
+    set lang(lang){
+        console.log(this.idioma = lang.toUpperCase());
+    },
     nombreCompleto: function(){ //metodo
         return this.nombre+" "+this.apellido;
+    },
+    get nombreEdad(){
+        return "El nombre es: "+this.nombre+", Edad : "+this.edad;
     }
 }
 
@@ -59,3 +69,26 @@ console.log(personaArray);
 console.log("Forma cuatro: metodo JSON.stringify");
 let personaString = JSON.stringify(persona);
 console.log(personaString);
+
+console.log("Comenzamos a utilizar el metodo get");
+console.log(persona.nombreEdad);
+
+console.log("Comenzamos con el metodo get y set para idiomas");
+persona.lang = "en";
+console.log(persona.lang);
+
+function Persona3(nombre = "Juan", apellido, email){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombreCompleto = function(){
+        return this.nombre+" "+this.apellido;
+    }
+}
+let padre = new Persona3("Agustin", "Ruiz", "agusruiz@gmail.com");
+padre.nombre = "Carlos";
+console.log(padre);
+console.log(padre.nombreCompleto());
+let madre = new Persona3("Paola", "Carrizo", "paocarrizo@gmail.com");
+console.log(madre);
+console.log(madre.nombreCompleto());
