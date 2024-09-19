@@ -87,8 +87,67 @@ function Persona3(nombre = "Juan", apellido, email){
 }
 let padre = new Persona3("Agustin", "Ruiz", "agusruiz@gmail.com");
 padre.nombre = "Carlos";
+padre.telefono = 5491137558255;
 console.log(padre);
 console.log(padre.nombreCompleto());
 let madre = new Persona3("Paola", "Carrizo", "paocarrizo@gmail.com");
 console.log(madre);
 console.log(madre.nombreCompleto());
+// diferentes formas de crear obejtos
+//opcion 1
+
+let miObjeto = new Object();
+
+//opcion 2
+let miObjeto2 = {};
+
+//caso string
+let miCadena1 = new String("Hola");
+
+let miCadena2 = "Hola";
+//caso numeros
+let miNumero = new  Number(1);
+
+let miNumero2 = 1;
+//caso booleano
+let miBoolean1 = new Boolean(false);
+let miBoolean2 = false;
+//caso arreglo
+let miArreglo1 = new Array();
+let miArreglo2 = [];
+//caso funcion
+let miFuncion1 = new Function();//todo despues de new es considerado objeto
+let miFuncion2 = function(){};
+
+//uso de prototype
+Persona3.prototype.telefono = "1158741789";
+console.log(padre);
+console.log(madre.telefono);
+madre.telefono = "5488554555525";
+console.log(madre.telefono);
+
+//uso de call
+let persona4 = {
+    nombre: "Juan",
+    apellido: "Perez",
+    nombreCompleto2:function(titulo, telefono)
+{
+    //return `${titulo} ${this.nombre} ${this.apellido} ${telefono}`;
+    return this.nombre+''+this.apellido;
+
+}
+}
+
+let persona5 = {
+    nombre: "Carlos",
+    apellido: "Lara",
+}
+console.log(persona4.nombreCompleto2()) ;
+console.log( persona4.nombreCompleto2.call(persona5, 'Ing', '545555555')) ;
+
+//metodo apply
+let arreglo = ['Ing.', '54558888888888'];
+console.log(persona4.nombreCompleto2.apply(persona5,arreglo));
+
+
+
