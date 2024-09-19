@@ -146,7 +146,7 @@ console.log(persona4.nombreCompleto2()) ;
 console.log( persona4.nombreCompleto2.call(persona5, 'Ing', '545555555')) ;
 
 //metodo apply
-let arreglo = ['Ing.', '54558888888888'];
+let arreglo = ['Ing.', '5455588888888'];
 console.log(persona4.nombreCompleto2.apply(persona5,arreglo));
 
 
