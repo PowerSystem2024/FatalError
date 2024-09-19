@@ -296,3 +296,29 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 Profesor Ariel Betancud
 
+### CLASE 06 MIÉRCOLES 18 DE SEPTIEMBRE DEL 2024 - Portafolio 6
+
+## Error con los tags
+
+### Investigación: ¿Qué pasa si por error cargamos un tag dos veces?
+
+¿Cómo solucionarías este problema o error?
+
+La respuesta debe ser enviada antes de las 23 horas por cada grupo. Deben enviar comandos y todos los pasos que harían frente a este conflicto.
+
+### PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en lo que es un portafolio por el Tutor:
+
+**Dante Nicolás Martínez**
+
+**Segundo Semestre Parte 6:**
+
+- Video Capítulo 05
+- PDF
+
+Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo requerido por el Tutor **Nico**, ya sea tarea o investigación.
+
+**Profesor Ariel Betancud**
+
+
