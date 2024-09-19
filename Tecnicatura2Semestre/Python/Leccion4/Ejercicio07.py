@@ -3,7 +3,7 @@
 # generar un numero aleatorio entre 1-100, y luego ir pidiendo que
 # numeros indicando "Es mayor" o "Es menor" segun sea mayor o menor
 # con respecto a N . El proceso termina cuando el usuario acierta y
-#alli se debe mostrar el numero de intentos
+#alli se debe mostrar el numero de intentos.
 
 import random
 print("\t JUEGO ADIVINA EL NUMERO")

@@ -1,6 +1,6 @@
 # Comenzamos con funciones
 # mi funcion() #No se puede llamar antes de definir a una funcion
-# Definimos una funcion
+# Definimos una funcion.
 def mi_funcion(): #Para identificar a la funcion utilizamos parentesis
     print("Saludos a todos los alumnos de la tecnicatura")
 

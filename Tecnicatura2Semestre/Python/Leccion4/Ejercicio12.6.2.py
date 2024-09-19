@@ -3,7 +3,7 @@
 # Crear un diccionario donde la calve sea el nombre del 
 # usuario y el valor sea el telefono, el programa tendra el siguiente menu:
 #    1. Nuevo contacto
-#    2. Borrar contacto
+#    2. Borrar contacto.
 #    3. Ver contactos existentes
 #    4. Salir
 

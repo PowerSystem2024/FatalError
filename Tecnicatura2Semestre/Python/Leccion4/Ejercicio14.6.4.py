@@ -39,7 +39,7 @@ Arg = [b for b in bottleC if b["country"]== "arg"]
 print(Arg)
 print(bottleC)
 
-#Paso de argumentos
+#Paso de argumentos.
 def mi_funcion2(name, lastName):
     print("Saludos a todos los que ven a traves del canal de YT")
     print(f"Nombre: {name}, Apellido: {lastName}")
