@@ -1,6 +1,6 @@
 <script setup>
 const title = 'Fatal Error';
-const descripcion = ' somos Técnicos Universitario en Programación - UTN';
+const descripcion = ' Somos Técnicos Universitarios en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Hola, Bienvenido a nuestro portafolio de proyectos. Somos  desarrollador web con experiencia en el desarrollo de aplicaciones web y movil';
 const redesSociales = [
