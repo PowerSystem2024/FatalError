@@ -1,25 +1,27 @@
 <template>
-  <h1>Línea de Tiempo</h1>
-  <ul>
-    <li v-for="item in timelineItems" :key="item.id">
-      <div class="fecha">{{ item.fecha }}</div>
-      <div class="titulo">{{ item.titulo }}</div>
-      <div class="descripcion">{{ item.descripcion }}</div>
-      <a class="enlace">Enlace al título</a>
-    </li>
-  </ul>
+  <section id="educacion">
+    <h1>Línea de Tiempo</h1>
+    <ul>
+      <li v-for="item in timelineItems" :key="item.id">
+        <div class="fecha">{{ item.fecha }}</div>
+        <div class="titulo">{{ item.titulo }}</div>
+        <div class="descripcion">{{ item.descripcion }}</div>
+        <a class="enlace">Enlace al título</a>
+      </li>
+    </ul>
 
-  <h1>UL Timeline Cards</h1>
-  <ul>
-    <li v-for="item in staticTimelineItems" :key="item.id" :style="{ '--accent-color': item.color }">
-      <div class="date">{{ item.fecha }}</div>
-      <div class="title">{{ item.titulo }}</div>
-      <div class="descr">{{ item.descripcion }}</div>
-    </li>
-  </ul>
-  <div class="credits">
-    <a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">Inspired by</a>
-  </div>
+    <h1>UL Timeline Cards</h1>
+    <ul>
+      <li v-for="item in staticTimelineItems" :key="item.id" :style="{ '--accent-color': item.color }">
+        <div class="date">{{ item.fecha }}</div>
+        <div class="title">{{ item.titulo }}</div>
+        <div class="descr">{{ item.descripcion }}</div>
+      </li>
+    </ul>
+    <div class="credits">
+      <a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">Inspired by</a>
+    </div>
+  </section>
 </template>
 
 <script setup>
