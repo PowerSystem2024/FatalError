@@ -1,3 +1,5 @@
+
+
 <template>
   <section id="educacion">
     <h1>Línea de Tiempo</h1>
@@ -22,6 +24,7 @@
       <a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">Inspired by</a>
     </div>
   </section>
+  
 </template>
 
 <script setup>
@@ -45,6 +48,8 @@ const staticTimelineItems = ref([
   { id: 5, fecha: '2022', titulo: 'Title 5', descripcion: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.', color: '#4CADAD' },
 ])
 </script>
+
+
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
