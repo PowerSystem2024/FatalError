@@ -321,4 +321,35 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 **Profesor Ariel Betancud**
 
+# CLASE 07 - MIÉRCOLES 25 DE SEPTIEMBRE DEL 2024
+
+## Portafolio 7
+
+### Error con los tags
+**Investigación:** Si un tag es imposible generarlo dos veces, ¿cómo es que existe el error de dos tags con el mismo nombre?
+
+#### ¿Cómo se origina este problema o error?
+
+La respuesta debe ser enviada antes de las **23 horas** por cada grupo. Deben enviar comandos y todos los pasos que harían frente a este conflicto.
+
+---
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de cómo avanzar en el portafolio proporcionados por el tutor:
+
+### Tutor: Dante Nicolás Martinez
+
+#### Segundo Semestre Parte 6:
+
+- **Video:** Capítulo 06
+
+- **PDF:** Revisar y ejecutar cada comando. 
+
+Realizarlo como práctica y **no olvidar** hacer lo requerido por el tutor Nico, ya sea tarea o investigación.
+
+---
+
+### Profesor: Ariel Betancud
+
 
