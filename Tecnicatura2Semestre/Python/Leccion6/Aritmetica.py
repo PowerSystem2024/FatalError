@@ -1,29 +1,32 @@
+# creamos una clase
 class Aritmetica:
+    """"
+    El nombre de este tipo de comentario es: DocString
+    esto es documentaciion de clase en python 
+    vamos a hacer en esta clase algunas operaciones de suma, resta,multip, y mas 
     """
-    el nombre de este tipo de comentario es: doctString
-    esto es documentacion de la clase en python
-    vamos a hacer algunas operaciones
-    """
-
-    def __init__(self, operandoA, operandoB):
+    #metodo que inicializa atributos
+    def __init__(self, operandoA,operandoB):
         self.operandoA = operandoA
         self.operandoB = operandoB
-        #Metodo para sumar
+    #metodo o funcion para sumar
     def sumar(self):
         return self.operandoA + self.operandoB
-
-    def resta (self):
+    
+    def resta(self):
         return self.operandoA - self.operandoB
-
-    def multiplicacion(self):
+    
+    def multiplicar(self):
         return self.operandoA * self.operandoB
-
+    
     def dividir(self):
         return self.operandoA / self.operandoB
 
+aritmetica1 = Aritmetica(7,9) # le pasamos los argumentos para los operandos
+print(aritmetica1.sumar())
 
-Aritmetica = Aritmetica(7,9) # Le pasamos los argumentos para los operandos
-print(Aritmetica.sumar())
-print(f"La resta de los numeros es: {Aritmetica.resta()}")
-print(f"La multiplicacion de los numeros es: {Aritmetica.multiplicacion()}")
-print(f"La division de los numeros es: {Aritmetica.dividir()}")
+print(f'La resta de los numero es: {aritmetica1.resta()}')
+print(f'La multiplicacion de los numero es: {aritmetica1.multiplicar()}')
+print(f'La division de los numero es: {aritmetica1.dividir():.2f}') # el :.2f es para que solo muestre 2 numeros flotantes
+
+

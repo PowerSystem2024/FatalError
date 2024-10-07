@@ -1,24 +1,26 @@
-class Cubo:
+class Cubo: 
     """
-    Crear la clase cubo con los atributos , ancho , alto y profundidad , con
-    un metodo calcular_volumen que tendra la formula:
-    volumen = ancho * altura * profundidad
-    que el usuario ingrese los valroes
+    Crear la clase cubo con los atributos, ancho,alto y profundidad con un metodo
+    calcular_volumen que tendra la formula:
+    volumen = ancho * altura * profundidad 
+    que el usuario ingrese los valores
     """
-
-    def __init__(self,ancho,altura,profundidad):
+    
+    def __init__(self, ancho, alto, profundidad):
         self.ancho = ancho
-        self.altura = altura
-        self.profundidad = profundidad
-
+        self.alto = alto
+        self.profundiad = profundidad
+        
     def calcular_volumen(self):
-        return self.ancho * self.altura * self.profundidad
+        return self.ancho * self.alto * self.profundiad
+    
+ancho = int(input('Digite el ancho del cubo: '))
+alto = int(input('Digite el alto del cubo: '))
+profundiad = int(input('Digite la profundidad del cubo: '))
 
+cubo1 = Cubo(ancho,alto,profundiad)
 
-ancho = int(input("Digite el ancho de el cubo"))
-altura=int(input("DIgite la altura de el cubo"))
-profundidad = int(input("Digite la profundidad de el cubo"))
-
-cubo1 = Cubo(ancho,altura,profundidad)
-print(f"El volumen de el cubo es: {cubo1.calcular_volumen()}")
-
+print(f'El volumen del cubo es: {cubo1.calcular_volumen()}')
+    
+    
+    
