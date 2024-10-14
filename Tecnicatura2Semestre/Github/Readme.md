@@ -392,3 +392,100 @@ Segundo Semestre Parte 7:
     PDF: Revisar y ejecutar cada comando.
 
 Realizarlo como práctica y no olvidar hacer lo requerido por el tutor Nico, ya sea tarea o investigación.
+
+## CLASE 09
+
+**MIÉRCOLES 9 DE OCTUBRE DEL 2024 - Portafolio 9**
+
+### Tarea para antes de las 23 horas
+Investigar cómo se puede clonar un repositorio con el HTTPS del mismo, siendo ustedes los dueños del repositorio. Desde la nube quieren traer este repo a nuestro ordenador. Se les pedirá **Username** y **password**: ¿qué se debe hacer para lograr hacer cambios y así utilizar **pull**, **push**, y todo lo necesario para trabajar? Como referencia, solo usuario y contraseña no serán suficientes; esto cambió desde el año 2021 y ahora hay algo más para poder hacer esto y tener así acceso total.
+
+### Configurar múltiples colaboradores en un repositorio de GitHub
+Por defecto, cualquier persona puede clonar o descargar tu proyecto desde GitHub, pero no pueden crear commits ni ramas. Esto significa que pueden copiar tu proyecto, pero no colaborar con él. Si el repositorio es privado, es necesario que realmente estés haciendo una invitación; de lo contrario, no lo van a poder ver. Existen varias formas de solucionar esto para aceptar contribuciones. Una de ellas es añadir a cada persona de nuestro equipo como colaborador de nuestro repositorio.
+
+#### Cómo agregar colaboradores en GitHub
+1. Entrar a la configuración de colaboradores de nuestro proyecto:
+   - Repositorio > Settings > Collaborators
+2. Ahí, debemos añadir el email o username de los nuevos colaboradores.
+
+### Cambiar el mensaje del commit
+Si, como colaborador, agregaste erróneamente el mensaje del commit, lo puedes cambiar de la siguiente manera:
+```bash
+git commit --amend # Corregimos el mensaje
+git pull origin main # Traer el repositorio remoto
+git push --set-upstream origin main # Ejecutar el cambio, error arreglado
+
+Comienzo del colaborador
+
+    Abre git bash:
+
+    bash
+    cd Documentos # Abre git bash
+    mkdir class-git # Crea la carpeta o directorio de trabajo
+    ls -al # Revisa los archivos o directorios que tienes
+
+No debe hacer un git init, debe buscar el repositorio en el cual está invitado a participar en GitHub.
+Clona desde HTTPS, copia la URL:
+
+bash
+git clone url-copiada-github # Esto hace que clonemos el repositorio
+
+    No pide ni usuario ni contraseña si el repositorio es público.
+
+Realizando cambios
+
+    Abre Visual Studio Code y comienza con cambios:
+
+    bash
+    code . # Abre VSC y comienza con cambios
+    vim historia.txt # Vamos a escribir: Aquí está un nuevo colaborador
+
+Para modificar el mensaje del commit en Ubuntu:
+
+bash
+ctrl + x # Para salir de vim 
+s # Para un sí 
+enter # Terminado el mensaje del commit 
+
+En git bash window:
+
+bash
+esc # Presionamos esc después de terminar de escribir
+:wq! # Para salir del editor vim en Windows
+
+Comandos adicionales
+
+bash
+git status 
+git commit -am "Mi primer commit, estoy muy emocionado!!!" 
+git pull origin main 
+git fetch 
+git branch # Para ver las ramas que se trajo 
+git log # Para ver toda la historia 
+git log --graph # Vemos el gráfico de las diferentes ramas 
+git push origin main # Pedirá email y contraseña del colaborador 
+
+Problemas comunes y soluciones
+
+    Si se recibe un error denegado:
+        El dueño del repositorio no le dio acceso: el dueño debe agregar al colaborador.
+    Ir a settings del repositorio:
+        Agregar correo o nombre de usuario: el colaborador debe tener un email público.
+    Enviar un email con la URL; GitHub envía una notificación al usuario invitado.
+    El colaborador debe aceptar la invitación para tener acceso total.
+
+Reparto del trabajo entre colaboradores
+A partir de ahora, el dueño del repositorio y el colaborador deberán repartir el trabajo utilizando distintas ramas:
+
+    El dueño trabajará desde la rama header.
+    El colaborador desde la rama footer.
+    Al final, cuando se termine, se hará un merge para finalizar el proyecto.
+
+PORTAFOLIO
+Vamos a ver unos videos sobre cómo avanzar en lo que es un portafolio por el Tutor:
+
+    Dante Nicolás Martinez
+    Segundo Semestre Parte 8:
+        Video Capítulo 08
+
+PDF Revisar y ejecutar cada comando, hacerlo como práctica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación. Profesor Ariel Betancud
