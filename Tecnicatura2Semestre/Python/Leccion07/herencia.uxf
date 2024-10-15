@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>240</x><y>50</y><w>100</w><h>30</h></coordinates><panel_attributes>Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>180</y><w>100</w><h>30</h></coordinates><panel_attributes>Empleado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>80</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>50</y><w>100</w><h>30</h></coordinates><panel_attributes>Object</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>140</y><w>100</w><h>30</h></coordinates><panel_attributes>Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>240</y><w>100</w><h>30</h></coordinates><panel_attributes>Empleado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>70</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>160</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>380</y><w>180</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+
+--
+-sueldo
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>250</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+
+--
+-nombre
+_edad
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>320</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>200</y><w>90</w><h>70</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element></diagram>
