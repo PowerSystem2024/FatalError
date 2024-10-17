@@ -19,7 +19,10 @@ class Persona :
     def edad(self,edad):
         self.__edad = edad
 
+    def __str__(self): #Override = sobreescribir
 
+
+        return f"Persona : [ Nombre: {self.__nombre}, Edad: {self.__edad}]"
 
 class Empleado(Persona) :
     def __init__(self,nombre,edad,sueldo):
@@ -33,6 +36,12 @@ class Empleado(Persona) :
     @sueldo.setter
     def sueldo(self,sueldo):
         self._sueldo = sueldo
+
+
+    def __str__(self):
+
+
+        return f"Empleado: [ Sueldo: {self._sueldo}] {super().__str__()}"
 
 emplado1 = Empleado("luca",40,75000)
 print(emplado1.edad)
