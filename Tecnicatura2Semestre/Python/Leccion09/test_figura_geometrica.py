@@ -6,5 +6,6 @@ print(cuadrado1.alto)
 print(f"Calculo del area del cuadrado: {cuadrado1.calcular_area()}")
 
 # MRO = Method Resolution Order
+
 print(Cuadrado.mro())
 

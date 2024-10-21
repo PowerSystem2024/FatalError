@@ -8,5 +8,6 @@ class Cuadrado(FiguraGeometrica, Color):
         color.__init__(self, color)
 
     def calcular_area(self):
+        
         return self.alto*self.ancho
     
