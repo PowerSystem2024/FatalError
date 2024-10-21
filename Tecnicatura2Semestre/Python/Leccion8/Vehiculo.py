@@ -27,4 +27,5 @@ auto = Auto("Amarillo",4,120)
 print(auto)
 
 bici = Bicicleta("Azul",2,"Urbana")
+
 print(bici)
