@@ -488,4 +488,35 @@ Vamos a ver unos videos sobre cómo avanzar en lo que es un portafolio por el Tu
     Segundo Semestre Parte 8:
         Video Capítulo 08
 
-PDF Revisar y ejecutar cada comando, hacerlo como práctica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación. Profesor Ariel Betancud
+PDF Revisar y ejecutar cada comando, hacerlo como práctica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación. Profesor Ariel Betancudull origin main
+
+# Clase 10 - Miércoles 16 de Octubre de 2024
+
+## Tema: Flujo de Trabajo Profesional - Merge de ramas de desarrollo a main
+
+En esta clase aprendimos a realizar merges de ramas de desarrollo hacia la rama `main` siguiendo un flujo de trabajo profesional, el cual es fundamental para el desarrollo de software colaborativo de manera ordenada y sin interrupciones.
+
+### Flujo de trabajo sugerido:
+
+1. Crear ramas para cada funcionalidad o tarea.
+2. Asignar una rama a cada desarrollador.
+3. El programador baja el repositorio con `git pull origin master`.
+4. El programador cambia a su rama con `git checkout #nombre_rama`.
+5. Trabaja en su rama, haciendo commits regularmente.
+6. Sube su trabajo al repositorio remoto con `git push origin #nombre_rama`.
+7. El encargado del proyecto baja, revisa y unifica los cambios mediante un merge hacia `main`.
+
+### Portafolio
+
+Además, trabajamos en la creación de un portafolio guiados por el tutor **Dante Nicolás Martinez**. Actualmente estamos en el segundo semestre, siguiendo la parte 8 del material.
+
+- **Video:** Capítulo 9
+- **Material adicional:** PDF con los comandos y flujo de trabajo para Git
+
+**Nota importante:** No olvidar revisar y ejecutar cada comando como práctica y realizar las tareas o investigaciones solicitadas por el tutor **Nico**.
+
+---
+
+
+**Profesor:** Ariel Betancud  
+**Tutor:** Dante Nicolás Martinez
