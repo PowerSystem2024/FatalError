@@ -520,3 +520,33 @@ Además, trabajamos en la creación de un portafolio guiados por el tutor **Dant
 
 **Profesor:** Ariel Betancud  
 **Tutor:** Dante Nicolás Martinez
+
+# Clase 11 - Miércoles 23 de Octubre de 2024
+
+## Tema: Flujo de Trabajo Profesional - Archivos Binarios
+
+En esta clase analizamos los problemas que pueden surgir al cargar archivos binarios, como imágenes, en un repositorio de GitHub. A continuación, se detallan las mejores prácticas aprendidas:
+
+### Problemas con los archivos binarios:
+
+- **Imágenes y otros archivos binarios**: Las imágenes, al ser archivos pesados, pueden causar problemas en el repositorio. Cada vez que hagamos cambios, el archivo binario será descargado nuevamente, aumentando el tamaño del repositorio y dificultando su manejo.
+  
+- **Malas prácticas**: Subir muchos binarios hará que el repositorio se vuelva pesado, lo cual no es recomendable en un flujo de trabajo profesional.
+
+- **Tamaño de los commits**: GitHub impone un límite de tamaño por commit de 100 MB. Si adjuntamos un archivo binario que exceda este límite, no podremos continuar realizando commits, ya que el archivo binario siempre será arrastrado, generando un problema.
+
+## Portafolio
+
+Además, continuamos con el avance del portafolio guiados por el tutor **Dante Nicolás Martinez**. Actualmente nos encontramos en el **Segundo Semestre - Parte 9**:
+
+- **Video:** Capítulo 10
+- **Material adicional:** PDF
+
+### Nota importante:
+No olvidar revisar y ejecutar cada comando como práctica. Es fundamental realizar las tareas o investigaciones solicitadas por el tutor **Nico**.
+
+---
+
+**Profesor:** Ariel Betancud  
+**Tutor:** Dante Nicolás Martinez
+
