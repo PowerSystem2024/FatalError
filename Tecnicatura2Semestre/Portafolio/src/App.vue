@@ -1,10 +1,11 @@
 
 <script setup>
-import navBar from './components/icons/navBar.vue'
-import DatosPersonales from './components/icons/DatosPersonales.vue';
-import Educacion from './components/icons/Educacion.vue';
-import Experiencia from './components/icons/Experiencia.vue';
-
+import navBar from './components/navBar.vue'
+import DatosPersonales from './components/DatosPersonales.vue';
+import Educacion from './components/Educacion.vue';
+import Experiencia from './components/Experiencia.vue';
+import Proyectos from './components/Proyectos.vue';
+import Habilidades from './components/Habilidades.vue';
 </script>
 
 <template>
@@ -23,7 +24,10 @@ import Experiencia from './components/icons/Experiencia.vue';
     <section id="Experiencia"><h2>Experiencia</h2></section>
      <Experiencia/>
     <section id="Proyectos"><h2>Proyectos</h2></section>
+    <Proyectos/>
+
     <section id="Habilidades"><h2>Habilidades</h2></section>
+    <Habilidades/>
     <section id="Intereses"><h2>Intereses</h2></section>
   </main>
 </template>
